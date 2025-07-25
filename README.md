@@ -15,8 +15,9 @@ Go to your GitHub repository, click **Code > Download ZIP**, then unzip the fold
 **Option B: Clone with Git**  
 Open your **terminal** (Command Prompt, PowerShell, Terminal, etc.) and run:
 
-git clone https://github.com/YOURGITHUBUSERNAME/gemini-chat-controller.git
-cd gemini-chat-controller
+```git clone https://github.com/YOURGITHUBUSERNAME/gemini-chat-controller.git```
+
+```cd gemini-chat-controller```
 
 *(Replace `YOURGITHUBUSERNAME` with your actual GitHub username.)*
 
@@ -51,7 +52,7 @@ OPENAI_API_KEY=your-openai-key-here
 
 In your terminal, still inside the project folder, run:
 
-python gemini_chat.py
+```python gemini_chat.py```
 
 This starts the chat.  
 You’ll see your device/network info and then a prompt to start chatting.
@@ -90,7 +91,7 @@ You’ll see your device/network info and then a prompt to start chatting.
 - **Add `keys.txt` to your `.gitignore` file** if you plan to make your project public.  
   Do this **before** you commit, by running in your project folder:
 
-echo "keys.txt">>.gitignore
+```echo "keys.txt">>.gitignore```
 
 - **Rotate your API keys** regularly for maximum security.
 - **Do not share `keys.txt`** if you are making the repository public.
@@ -126,7 +127,7 @@ Open an **Issue** on your GitHub repository, or contact the project owner.
 
 Once your keys are in `keys.txt` and dependencies are installed, open your terminal, go to the project folder, and run:
 
-python gemini_chat.py
+```python gemini_chat.py```
 
 
 **Enjoy fast, eco-friendly, and intelligent conversations with Gemini!**
