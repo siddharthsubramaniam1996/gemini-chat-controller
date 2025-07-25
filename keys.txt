@@ -1,0 +1,5 @@
+# Put your API keys here
+
+GOOGLE_AI_STUDIO_API_KEY=<replace this with your gemini key>
+
+OPENAI_API_KEY=<replace this with your ChatGPT key>
